@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "label": "Student Name",
+      "type": "textfield",
+      "key": "Name",
+      "validate": { "required": true }
+    },
+    {
+      "label": "Leave Date",
+      "type": "datetime",
+      "key": "Date",
+      "subtype": "date",
+      "validate": { "required": true }
+    },
+    {
+      "label": "Reason for Leave",
+      "type": "textarea",
+      "key": "Reason",
+      "validate": { "required": true }
+    }
+  ],
+  "type": "default",
+  "id": "fa-approval-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0"
+}
